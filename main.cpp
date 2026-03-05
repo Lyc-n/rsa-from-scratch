@@ -24,7 +24,7 @@ int modInverse(int e, int phi){
 }
 
 // fungsi perpangkatan modulo
-long long modPow(long long base, long long exp, long long mod){
+long long rsa(long long base, long long exp, long long mod){
     long long result = 1;
 
     for(int i = 0; i < exp; i++){
@@ -70,7 +70,7 @@ int main(){
         int m = (int)c;
         cout << c << " -> " << m << endl;
 
-        long long cipher = modPow(m, e, n);
+        long long cipher = rsa(m, e, n);
         encrypted.push_back(cipher);
     }
 
@@ -88,7 +88,7 @@ int main(){
     string decrypted = "";
 
     for(long long c : encrypted){
-        long long m = modPow(c, d, n);
+        long long m = rsa(c, d, n);
         decrypted += (char)m;
     }
 
