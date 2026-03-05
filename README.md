@@ -203,6 +203,16 @@ HELLO
 
 ---
 
+---
+
+## 🎥 Demo Program
+
+Klik gambar di bawah untuk menonton demo program:
+
+[![Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://drive.google.com/file/d/1ThPi8YB-q82hV7UQYrqjGO0UIObC2RKl/view)
+
+---
+
 # 👨‍🎓 Informasi Tugas
 
 Mata Kuliah: Keamanan Data dan Informasi
